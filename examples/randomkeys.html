@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="../lib/screenkeys.css" type="text/css" rel="stylesheet"/>
+		<script type="text/javascript" src="../lib/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="../lib/screenkeys-1.0.1.min.js"></script>
+		<script type="text/javascript" src="../lib/locale/screenkeysloc_en_US.js"></script>
+		<script>
+			$(function(){
+				$("#screenBody").screenKeys({container:$(".screenkeyboard"),width:"310px",randomChar:true});
+				
+			});
+		</script>
+	</head>
+	<body>
+		<fieldset>
+		<legend>
+		<h2>Screenkeys running with random keys.</h2> 
+		</legend>
+		<label for="text1">Enter Text : </label><input name="text1" type="text" width="200" id="screenBody"/>
+		<div class="screenkeyboard"></div>
+		<div>
+			<p><b>Code</b></p>
+			<pre>
+	$(function()
+	{
+		$("#screenBody").screenKeys({container:$(".screenkeyboard"),width:"310px",randomChar:true});
+	});
+			</pre>
+		</div>
+		</fieldset>
+		
+		
+		
+		
+		
+		
+	</body>
+</html>
+
