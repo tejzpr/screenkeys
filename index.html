@@ -48,10 +48,57 @@
 <li>Fixed width and Fluidic width supported.</li>
 </ul><h3>Usage</h3>
 
-<p><code>$(function(){                  $("#keyboardInput").screenKeys({container:$(".screenkeyboard"),width:"310px"});
-});</code></p>
+<ol>
+<li>
+<p>Input to a form text field</p>
 
-<h3>Authors and Contributors</h3>
+<ul>
+<li><code>$("input[type=text]").screenKeys({
+    container:$(".keyboadDisplayDiv"),
+    width:"310px"
+});</code></li>
+</ul>
+</li>
+<li>
+<p>Input to a display DIV tag   </p>
+
+<ul>
+<li><code>$("div").screenKeys({
+    container:$(".keyboadDisplayDiv"),
+    width:"310px"
+});</code></li>
+</ul>
+</li>
+<li>
+<p>Input to a display DIV tag with unbound width</p>
+
+<ul>
+<li><code>$("div").screenKeys({
+    container:$(".keyboadDisplayDiv")
+});</code></li>
+</ul>
+</li>
+<li>
+<p>Scramble keys for added security </p>
+
+<ul>
+<li><code>$("div").screenKeys({
+    container:$(".keyboadDisplayDiv"),
+    randomChar:true
+});</code></li>
+</ul>
+</li>
+<li>
+<p>Localize keyboard to US, English (Can display keys based on localization)</p>
+
+<ul>
+<li><code>$("div").screenKeys({
+    container:$(".keyboadDisplayDiv"),
+    locale:"en_US"
+});</code></li>
+</ul>
+</li>
+</ol><h3>Authors and Contributors</h3>
 
 <ol>
 <li><a href="https://github.com/tejzp" class="user-mention">@tejzp</a></li>
