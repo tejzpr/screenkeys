@@ -12,6 +12,17 @@ Screenkeys is a fluidic CSS/Javascript based virtual keyboard with localization 
 * Fixed width and Fluidic width supported.
 
 ### Usage
-`$("#keyboardInput").screenKeys({container:$(".screenkeyboard"),width:"310px"});`
+1. `$("input[type=text]").screenKeys({
+		container:$(".keyboadDisplayDiv"),
+		width:"310px"
+	});`
+	
+2. `$("div").screenKeys({
+		container:$(".keyboadDisplayDiv"),
+		width:"310px"
+	});`
+
+
+
 
 
