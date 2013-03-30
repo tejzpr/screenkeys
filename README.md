@@ -1,7 +1,5 @@
 Screenkeys
 ==========
-
-### Welcome to Screenkeys
 Screenkeys is a fluidic CSS/Javascript based virtual keyboard with localization support. 
 
 ### Features 
@@ -17,6 +15,4 @@ Screenkeys is a fluidic CSS/Javascript based virtual keyboard with localization 
 `$(function(){				    $("#keyboardInput").screenKeys({container:$(".screenkeyboard"),width:"310px"});
 });`
 
-### Authors and Contributors
-1. @tejzp
 
