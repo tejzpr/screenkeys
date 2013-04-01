@@ -11,6 +11,9 @@ Screenkeys is a fluidic CSS/Javascript based virtual keyboard with localization 
 * Accepts input fields as well as HTML display elements
 * Fixed width and Fluidic width supported.
 
+###Screenshots
+http://imgur.com/a/E6RHK#0
+
 ### Installation
 1. Include the following lines inside the head tag.
 
