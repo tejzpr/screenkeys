@@ -53,3 +53,6 @@ Screenkeys is a fluidic CSS/Javascript based virtual keyboard with localization 
 			container:$(".keyboadDisplayDiv"),
 			locale:"en_US"
 		});`
+
+#LICENSE 
+MIT License
