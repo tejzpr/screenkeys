@@ -49,47 +49,52 @@
 </ul><h3>Installation</h3>
 
 <ol>
-<li>
-<p>Include the following lines inside the head tag.</p>
+<li>Include the following lines inside the head tag.</li>
+</ol><ul>
+<li><p><code>&lt;link href="../lib/screenkeys.css" type="text/css" rel="stylesheet"/&gt;</code></p></li>
+<li><p><code>&lt;script type="text/javascript" src="../lib/jquery-1.9.1.min.js"&gt;&lt;/script&gt;</code></p></li>
+<li><p><code>&lt;script type="text/javascript" src="../lib/screenkeys-1.0.1.min.js"&gt;&lt;/script&gt;</code></p></li>
+<li><p><code>&lt;script type="text/javascript" src="../lib/locale/screenkeysloc_en_US.js"&gt;&lt;/script&gt;</code></p></li>
+</ul><h3>Usage</h3>
 
-<p><code>&lt;link href="../lib/screenkeys.css" type="text/css" rel="stylesheet"/&gt;</code></p>
+<p>Input to a form text field</p>
 
-<p><code>&lt;script type="text/javascript" src="../lib/jquery-1.9.1.min.js"&gt;&lt;/script&gt;</code></p>
+<pre><code>   $("input[type=text]").screenKeys({
+        container:$(".keyboadDisplayDiv"),
+        width:"310px"
+    });
+</code></pre>
 
-<p><code>&lt;script type="text/javascript" src="../lib/screenkeys-1.0.1.min.js"&gt;&lt;/script&gt;</code></p>
+<p>Input to a display DIV tag  </p>
 
-<p><code>&lt;script type="text/javascript" src="../lib/locale/screenkeysloc_en_US.js"&gt;&lt;/script&gt;</code></p>
-</li>
-</ol><h3>Usage</h3>
+<pre><code>   $("div").screenKeys({
+        container:$(".keyboadDisplayDiv"),
+        width:"310px"
+    });
+</code></pre>
 
-<p>Input to a form text field
-    * <code>$("input[type=text]").screenKeys({
-            container:$(".keyboadDisplayDiv"),
-            width:"310px"
-        });</code></p>
+<p>Input to a display DIV tag with unbound width</p>
 
-<p>Input to a display DIV tag<br>
-    * <code>$("div").screenKeys({
-            container:$(".keyboadDisplayDiv"),
-            width:"310px"
-        });</code></p>
+<pre><code>   $("div").screenKeys({
+        container:$(".keyboadDisplayDiv")
+    });
+</code></pre>
 
-<p>Input to a display DIV tag with unbound width
-    * <code>$("div").screenKeys({
-            container:$(".keyboadDisplayDiv")
-        });</code></p>
+<p>Scramble keys for added security    </p>
 
-<p>Scramble keys for added security<br>
-    * <code>$("div").screenKeys({
-            container:$(".keyboadDisplayDiv"),
-            randomChar:true
-        });</code></p>
+<pre><code>   $("div").screenKeys({
+        container:$(".keyboadDisplayDiv"),
+        randomChar:true
+    });
+</code></pre>
 
-<p>Localize keyboard to US, English (Can display keys based on localization)
-    * <code>$("div").screenKeys({
-            container:$(".keyboadDisplayDiv"),
-            locale:"en_US"
-        });</code></p>
+<p>Localize keyboard to US, English (Can display keys based on localization)</p>
+
+<pre><code>   $("div").screenKeys({
+        container:$(".keyboadDisplayDiv"),
+        locale:"en_US"
+    });
+</code></pre>
 
 <h3>Authors and Contributors</h3>
 
