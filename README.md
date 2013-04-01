@@ -13,11 +13,10 @@ Screenkeys is a fluidic CSS/Javascript based virtual keyboard with localization 
 
 ### Installation
 1. Include the following lines inside the <head> tag.
- 
-	`<link href="../lib/screenkeys.css" type="text/css" rel="stylesheet"/>`
-	`<script type="text/javascript" src="../lib/jquery-1.9.1.min.js"></script>`
-	`<script type="text/javascript" src="../lib/screenkeys-1.0.1.min.js"></script>`
-	`<script type="text/javascript" src="../lib/locale/screenkeysloc_en_US.js"></script>`
+*`<link href="../lib/screenkeys.css" type="text/css" rel="stylesheet"/>`
+*`<script type="text/javascript" src="../lib/jquery-1.9.1.min.js"></script>`
+*`<script type="text/javascript" src="../lib/screenkeys-1.0.1.min.js"></script>`
+*`<script type="text/javascript" src="../lib/locale/screenkeysloc_en_US.js"></script>`
 
 ###Usage
 
