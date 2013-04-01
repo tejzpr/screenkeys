@@ -1,6 +1,6 @@
 Screenkeys
 ==========
-Screenkeys - A jQuery plugin to show a multilingual virtual keyboard for websites, which is useful to avoid key-loggers while typing sensitive data into website form fields.
+Screenkeys - A jQuery plugin to show a multilingual virtual keyboard for websites, which is useful to avoid key-loggers while typing sensitive data into a website's writable(form) fields.
 
 ### Features 
 * Full keys virtual keyboard in 102kb
