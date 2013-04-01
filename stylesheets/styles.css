@@ -1008,3 +1008,12 @@ footer {
     width: auto;
   }
 }
+
+a.top-title{
+	color:#ffffff;
+}
+
+a.top-title:hover
+{	
+	color:#3399CC;
+}

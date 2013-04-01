@@ -1,0 +1,75 @@
+.aKey
+{
+	background-color:#ffffff;
+	color:#555555;
+	border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+	padding: 2.6%;
+    text-align: center;
+	text-decoration: none;
+	
+}
+.aKey:active
+{
+	background-color:#dddddd;
+}
+.aKey a span
+{
+    
+}
+.screenKeySymContainer
+{
+	display:none;
+}
+.screenIndSym
+{
+	width:3%;
+}
+.screenIndChar,.screenIndNum
+{
+	width:4%;
+}
+.clear
+{
+	clear:both;
+}
+.screenIndSym
+{
+	border-style:solid;
+	border-bottom-color:#FF9900;
+	border-bottom-width:2px;
+}
+.screenIndChar 
+{
+	border-style:solid;
+	border-bottom-color:#5B9058;
+	border-bottom-width:2px;
+}
+.screenIndNum 
+{
+	border-style:solid;
+	border-bottom-color:#6B6DA6;
+	border-bottom-width:2px;
+}
+.screenIndSpace
+{
+	width:21%;
+}
+.screenIndShift
+{
+	width:14%;
+}
+.screenIndbackspace
+{
+	width:13%;
+}
+.screenIndSymKey
+{
+	width:10%;
+}
+a.shifton
+{
+		background-color:#C3FDB8;
+}

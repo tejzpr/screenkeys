@@ -21,7 +21,7 @@
 
       <header>
         <h1><a class="top-title" href="http://tejzp.github.com/screenkeys/" title="Screenkeys Home">Screenkeys</a></h1>
-        <p>Screenkeys - A jQuery plugin to render an onscreen keyboard for your website.</p>
+        <p>Screenkeys - A Javascript plugin to render an onscreen keyboard for your website.</p>
       </header>
 
       <div id="banner">
@@ -47,77 +47,24 @@
 
 <p>Screenkeys - A jQuery plugin to show a multilingual virtual keyboard for websites, which is useful to avoid key-loggers while typing sensitive data into a website's writable(form) fields.</p>
 
-<h3>Features</h3>
-
-<ul>
-<li>Full keys virtual keyboard in 102kb</li>
-<li>Can be used to overcome key loggers<br>
-</li>
-<li>Fully customizable with themes</li>
-<li>Multiple Localizations Supported (Looking for contributors)</li>
-<li>QWERTY / Randomized keys supported</li>
-<li>Accepts input fields as well as HTML display elements</li>
-<li>Fixed width and Fluidic width supported.</li>
-</ul><h3>Screenshots</h3>
-
-<p><img src="http://i.imgur.com/P43r6KD.png" alt="Screenkeys with alphabets"></p>
-
-<hr><p><img src="http://i.imgur.com/dZzU4GD.png" alt="Screenkeys with alphabets entered into an input field"></p>
-
-<hr><p><img src="http://i.imgur.com/UVZzLL6.png" alt="Screenkeys with symbols entered into an input field."></p>
-
-<h3>Installation</h3>
-
-<p>Include the following lines inside the head tag.</p>
-
-<p><code>&lt;link href="../lib/screenkeys.css" type="text/css" rel="stylesheet"/&gt;</code></p>
-
-<p><code>&lt;script type="text/javascript" src="../lib/jquery-1.9.1.min.js"&gt;&lt;/script&gt;</code></p>
-
-<p><code>&lt;script type="text/javascript" src="../lib/screenkeys-1.0.1.min.js"&gt;&lt;/script&gt;</code></p>
-
-<p><code>&lt;script type="text/javascript" src="../lib/locale/screenkeysloc_en_US.js"&gt;&lt;/script&gt;</code></p>
-
-<h3>Usage</h3>
-
-<p>Input to a form text field</p>
-
-<pre><code>   $("input[type=text]").screenKeys({
-        container:$(".keyboadDisplayDiv"),
-        width:"310px"
-    });
-</code></pre>
-
-<p>Input to a display DIV tag  </p>
-
-<pre><code>   $("div").screenKeys({
-        container:$(".keyboadDisplayDiv"),
-        width:"310px"
-    });
-</code></pre>
-
-<p>Input to a display DIV tag with unbound width</p>
-
-<pre><code>   $("div").screenKeys({
-        container:$(".keyboadDisplayDiv")
-    });
-</code></pre>
-
-<p>Scramble keys for added security    </p>
-
-<pre><code>   $("div").screenKeys({
-        container:$(".keyboadDisplayDiv"),
-        randomChar:true
-    });
-</code></pre>
-
-<p>Localize keyboard to US, English (Can display keys based on localization)</p>
-
-<pre><code>   $("div").screenKeys({
-        container:$(".keyboadDisplayDiv"),
-        locale:"en_US"
-    });
-</code></pre>
+<h3>Demo</h3>
+<ol>
+	<li>
+				<a href="./examples/fixedwidth.html">Fixed width</a>
+			</li>
+			<li>
+				<a href="./examples/fluidwidth.html">Fluid width</a>
+			</li>
+			<li>
+				<a href="./examples/randomkeys.html">Random Keys</a>
+			</li>
+			<li>
+				<a href="./examples/divinput.html">Div tag as input</a>
+			</li>
+			<li>
+				<a href="./examples/differentlocale.html">Keyboard localization for different languages</a>
+			</li>
+</ol>
 
 <h3>Authors and Contributors</h3>
 
