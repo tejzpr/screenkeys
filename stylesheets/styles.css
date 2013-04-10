@@ -1027,6 +1027,6 @@ a.top-title:hover
     margin: 190px 0 20px;
     padding: 30px 30px 50px;
 	left: 77%;
-    position: fixed;
+    position: fixed; 
     top: 190px;
 }
