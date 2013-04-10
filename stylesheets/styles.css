@@ -1017,3 +1017,10 @@ a.top-title:hover
 {	
 	color:#3399CC;
 }
+
+.social-area
+{
+	left: 77%;
+    position: fixed;
+    top: 190px;
+}
