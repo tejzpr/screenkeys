@@ -1,63 +1,31 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-	<meta name="description" content="A jQuery plugin to show a multilingual virtual keyboard for websites, which is useful to avoid key-loggers while typing sensitive data into a website's writable(form) fields.">
-	<meta name="keywords" content="HTML,CSS,JavaScript,jQuery,virtual,keyboard,virtual-keyboard">
-	<meta name="author" content="Tejus Pratap">
-	<link rel="shortcut icon" href="./favicon.ico" />
-    <title>Screenkeys | A jQuery plugin to render an onscreen keyboard for your website.</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <meta charset="UTF-8">
+    <title>Screenkeys by tejzpr</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
-      <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=608739615821742";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <section class="page-header">
+      <h1 class="project-name">Screenkeys</h1>
+      <h2 class="project-tagline">Screenkeys - A Javascript plugin to render an onscreen keyboard for your website.</h2>
+      <a href="https://github.com/tejzpr/screenkeys" class="btn">View on GitHub</a>
+      <a href="https://github.com/tejzpr/screenkeys/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/tejzpr/screenkeys/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-      <header>
-        <h1><a class="top-title" href="http://tejzp.github.com/screenkeys/" title="Screenkeys Home">Screenkeys</a></h1>
-        <p>Screenkeys - A jQuery plugin to render an onscreen keyboard for your website.</p>
-      </header>
-
-      <div id="banner">
-        <span id="logo"></span>
-
-        <a href="https://github.com/tejzp/screenkeys" class="button fork"><strong>View On GitHub</strong></a>
-		<a href="./demos.html" class="button fork" style="left:60%"><strong>Demos</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/tejzp/screenkeys/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/tejzp/screenkeys/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div>
-      </div><!-- end banner -->
-
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <h3>Welcome to Screenkeys</h3>
+    <section class="main-content">
+      <h3>
+<a id="welcome-to-screenkeys" class="anchor" href="#welcome-to-screenkeys" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Screenkeys</h3>
 
 <p>Screenkeys - A jQuery plugin to show a multilingual virtual keyboard for websites, which is useful to avoid key-loggers while typing sensitive data into a website's writable(form) fields.</p>
 
-
-<h3>Features</h3>
+<h3>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h3>
 
 <ul>
 <li>Full keys virtual keyboard in 102kb</li>
@@ -68,15 +36,23 @@
 <li>QWERTY / Randomized keys supported</li>
 <li>Accepts input fields as well as HTML display elements</li>
 <li>Fixed width and Fluidic width supported.</li>
-</ul><h3>Screenshots</h3>
+</ul>
+
+<h3>
+<a id="screenshots" class="anchor" href="#screenshots" aria-hidden="true"><span class="octicon octicon-link"></span></a>Screenshots</h3>
 
 <p><img src="http://i.imgur.com/P43r6KD.png" alt="Screenkeys with alphabets"></p>
 
-<hr><p><img src="http://i.imgur.com/dZzU4GD.png" alt="Screenkeys with alphabets entered into an input field"></p>
+<hr>
 
-<hr><p><img src="http://i.imgur.com/UVZzLL6.png" alt="Screenkeys with symbols entered into an input field."></p>
+<p><img src="http://i.imgur.com/dZzU4GD.png" alt="Screenkeys with alphabets entered into an input field"></p>
 
-<h3>Installation</h3>
+<hr>
+
+<p><img src="http://i.imgur.com/UVZzLL6.png" alt="Screenkeys with symbols entered into an input field."></p>
+
+<h3>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h3>
 
 <p>Include the following lines inside the head tag.</p>
 
@@ -88,7 +64,8 @@
 
 <p><code>&lt;script type="text/javascript" src="../lib/locale/screenkeysloc_en_US.js"&gt;&lt;/script&gt;</code></p>
 
-<h3>Usage</h3>
+<h3>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h3>
 
 <p>Input to a form text field</p>
 
@@ -129,36 +106,22 @@
     });
 </code></pre>
 
-<h3>Authors and Contributors</h3>
+<h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
 <ol>
-<li><a href="https://github.com/tejzp" class="user-mention">@tejzp</a></li>
+<li><a href="https://github.com/tejzpr" class="user-mention">@tejzpr</a></li>
 </ol>
-      </section>
-      <footer>
-        <p>Project maintained by <a href="https://github.com/tejzp">tejzp</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/tejzpr/screenkeys">Screenkeys</a> is maintained by <a href="https://github.com/tejzpr">tejzpr</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
-    </div>
-	
-	<div class="social-area">
-		<div class="socal-network">
-			<div>
-				<div class="fb-like" data-href="http://tejzp.github.io/screenkeys/" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>
-			</div>
-			<div>
-				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://tejzp.github.io/screenkeys/" data-text="Screenkeys | A jQuery plugin to render an onscreen keyboard for your website" data-via="Screenkeys" data-related="tejzp" data-hashtags="virtualkeyboard">Tweet</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-			</div>
-			<div>
-				<a href="https://twitter.com/Screenkeys" class="twitter-follow-button" data-show-count="false">Follow @Screenkeys</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-			</div>
-		</div>
-	</div>
-	
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-              <script type="text/javascript">
+
+    </section>
+
+            <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -171,3 +134,4 @@
 
   </body>
 </html>
+
